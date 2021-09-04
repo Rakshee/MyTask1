@@ -1,0 +1,63 @@
+/*
+Theme Name:Home Template
+Theme URI: https://hometemplate1.com
+Description:This theme is made for custom use only
+Version:2.0
+Author Name:Squid
+Author URI:kunu
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 13px/20px Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+  
+   
+}
+.header_top_aligner {
+    height : 35px;
+}
+
+.column{
+    width: 25%;
+    float: left;
+    padding: 0px 10px 5px 0px;
+}
+
+
+@media screen and(max-width:600px)
+{
+    .column{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+} 
+
+
+
+.container-fluid{
+    background-image: url(img/bg-2.jpg);
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+  .p-footer{
+      color: rgba(200, 204, 206, 1);
+      font-size: 15px;
+      padding: 0;
+  }
+  
+  a{
+     color: black;
+  }
+  .social{
+      float: left;
+  }
+
+  li {
+    display: block;
+    text-align: -webkit-match-parent;
+}
